@@ -1,0 +1,47 @@
+projekt munkafolyamat szempontjabol fontos:
+	peak trough detection feature extractionhoz --> amp, peaktime
+
+
+
+
+dokumentum olvasas:
+	1.kerdes-valasz parok fokuszalas: skimming + extraction
+	2.abrak
+	3.ai summary
+
+szakirodalom munkamenet:
+	1.ai summary-gyors kep
+	2.abstract+figures->valos megertes
+	3.discussion
+	4.opcionalis fontos reszek, pl methods
+
+!!!!!!!!!dokumentum elemzes:
+	mit mérnek pontosan (ERG komponensek)
+	mit tekintenek fontos feature-nek (amplitude, latency, harmonics, stb.)
+	milyen analíziseket használnak (FFT? averaging? stat?)
+
+
+
+
+str measured with dim red LEDs, dimmer than -4.10 cd.s/m2
+
+dark/light adapted - egerek retinajara vonatkozik
+dark adapted: egereket sotetben tartjak elotte     SCOTOPIC
+	rodok dominalnak
+	cone: kikapcsolva
+light adapted: vilagos hatterfenyhez adaptaljak egeret      PHOTOPIC
+	cone aktiv, rodok telitodnek 
+
+MESOPIC - rod + cone egyutt
+
+
+
+CIKK SZERINT FONTOS FEATUREOK
+Amplitude ---------> µV-ban, baseline-tól vagy trough-to-peak; b/a ratio is fontos
+Peak/trough time (implicit time)---------->ms-ban, stimulus onset-től számítva (kivéve N_OFF: stimulus offset-től)
+Phase (flicker)----------------->fokban, frekvencia-függvény lineáris regressziójával → apparent latency
+Slope (a-wave leading edge)--------->fototranszdukció integritásának markere — ha ez normális, a változás másodlagos
+Ratio -_------------->b/a amplitude ratio — DMD-ben szignifikánsan kisebb
+OP összetevők------------->OP2, OP3, OP4 külön-külön, OP3 a legnagyobb
+Signal-to-noise ratio-------------->SNR > 2 threshold a flicker ERG-nél az elfogadáshoz
+
