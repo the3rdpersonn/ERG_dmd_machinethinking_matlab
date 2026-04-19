@@ -21,5 +21,4 @@ jelenlegi allapot:
 		k-means? alternative?
 		features?, are they valid? weighing OK?
 		should i discard feature system alltogether and just use averaged graphs as data? (hard to implement, maybe straight up unproductive)
-
 _____________________________________________________________________________________
