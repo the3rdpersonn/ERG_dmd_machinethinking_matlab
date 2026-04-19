@@ -7,10 +7,18 @@ ________________________________________________________________________________
 
 
 _________________________________1.__________________________________________________
-A clusterek jok a parameterek alatt? mellekelni silhouette scoret, k means mapet
-	ha elolvasom a szakirodalmat, lehet hogy talalnek erre valaszt
-
-
-
-
+jelenlegi allapot: 
+	feature extraction, feature weighing, k-means clustering, silhouette score evaluation
+	features based on sawtooth signal properties -> weighing
+	lesser weighed features: general signal processing features, flicker properties
+	clustering based on pca -> no clear clusters in 2D -> large cloud of most elements with additional outliers
+		-> low silhouette score, slightly varies with feature weigh adjustment
+		-> 3/4 clusters are definitely productive
+			-> more clusters produce singletons instead of regrouping large clouds
+	before evaluation of results i would like to make sure that my process is OK
+	read most of the papers
+	>>>questions:
+		k-means? alternative?
+		features?, are they valid? weighing OK?
+		should i discard feature system alltogether and just use averaged graphs as data? (hard to implement, maybe straight up unproductive)
 _____________________________________________________________________________________
